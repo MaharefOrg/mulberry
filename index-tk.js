@@ -176,8 +176,7 @@
         h('div', { style: { position: 'sticky', top: 110 } },
           h(Eb, { ar }, t.programEyebrow),
           h(H2, { style: { margin: '0 0 18px' } }, t.programTitle),
-          h('p', { style: { ...body, margin: '0 0 28px' } }, t.programBody),
-          h('a', { href: '#pricing', style: { fontWeight: 600, fontSize: 15 } }, '→ ', t.programBack)),
+          h('p', { style: { ...body, margin: '0 0 28px' } }, t.programBody)),
         h('ol', { style: { listStyle: 'none', margin: 0, padding: 0, borderTop: '1px solid var(--border-default)' } },
           t.program.map(([hd, d], i) => h('li', {
             key: hd, className: 'mr-reveal',
